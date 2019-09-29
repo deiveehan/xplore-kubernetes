@@ -12,19 +12,17 @@ Communication between different containers can happen in different ways.
 
 
 
-* Shared network space.. conatainer can interact with another container using localhost 
-![network port]
-(/screenshots/container-networking-port.png)
+* Shared network space.. conatainer can interact with another container using localhost
+ 
+![network port](screenshots/container-networking-port.png)
 
 * Shared storage volume
 Can have one container writing to a shared storage
 volume while the other container read from the 
 shared storage volume 
 
-![Storage volume]
-(/screenshots/container-storage.png)
+![Storage volume](screenshots/container-storage.png)
 
 * Shared process namespace: Containers can interact with one another containers process using shared process namespace
-![Shared process namespace]
-(/screenshots/container-storage.png)
+![Shared process namespace](screenshots/container-storage.png)
 
