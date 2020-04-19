@@ -4,6 +4,12 @@
 * Enable post deploy scripts in Opsman Director config pane. 
 * Apply changes. 
 
+--- create 2 service accounts 
+- master
+    - more roles. 
+- worker 
+    - compute viewer role. 
+
 ### Sizing requirements. 
 
 ### Installation
