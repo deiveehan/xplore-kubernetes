@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdcb77dd-9e7b-49db-a093-49696ec7d3fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/simple/setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/setup/custom/setup.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +12,11 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="xplore-kubernetes">
+      <favorite_root url="file://$PROJECT_DIR$/reference/commands-reference.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,12 +47,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/multi-container-pods" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/reference" />
       <recent name="$APPLICATION_CONFIG_DIR$/scratches/reference/cheatsheets/kubectl" />
       <recent name="$PROJECT_DIR$/setup/simple" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/multi-container-pods" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -78,8 +85,34 @@
       <workItem from="1584052163102" duration="375000" />
       <workItem from="1584123050629" duration="1913000" />
       <workItem from="1584199944480" duration="1206000" />
-      <workItem from="1584212942435" duration="402000" />
+      <workItem from="1584212942435" duration="1800000" />
+      <workItem from="1584270883250" duration="237000" />
+      <workItem from="1584390020115" duration="337000" />
+      <workItem from="1584403198716" duration="489000" />
+      <workItem from="1585061548032" duration="3493000" />
+      <workItem from="1585157338648" duration="827000" />
+      <workItem from="1585840618885" duration="275000" />
+      <workItem from="1586431757510" duration="2020000" />
+      <workItem from="1586781142912" duration="2019000" />
+      <workItem from="1587290602543" duration="2003000" />
+      <workItem from="1587319037263" duration="543000" />
+      <workItem from="1587529698672" duration="347000" />
+      <workItem from="1587531981624" duration="2155000" />
+      <workItem from="1587572092880" duration="1031000" />
+      <workItem from="1588212440829" duration="1368000" />
+      <workItem from="1588265913391" duration="477000" />
+      <workItem from="1588303991066" duration="517000" />
+      <workItem from="1588328312919" duration="29000" />
+      <workItem from="1588328419045" duration="602000" />
     </task>
+    <task id="LOCAL-00001" summary="read me overview">
+      <created>1587290665050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587290665050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,24 +131,48 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="read me overview" />
+    <option name="LAST_COMMIT_MESSAGE" value="read me overview" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="-78" y="-1056" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583976363191">
       <screen x="-303" y="-1669" width="3008" height="1669" />
     </state>
     <state x="-78" y="-1056" key="#com.intellij.fileTypes.FileTypeChooser/-303.-1669.3008.1669/0.23.1440.877@-303.-1669.3008.1669" timestamp="1583976363191" />
-    <state x="584" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1584213606152">
-      <screen x="0" y="23" width="1600" height="877" />
+    <state x="1169" y="280" key="CommitChangelistDialog2" timestamp="1587290664619">
+      <screen x="0" y="23" width="3200" height="1310" />
     </state>
-    <state x="526" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1584206471572" />
+    <state x="1169" y="280" key="CommitChangelistDialog2/0.23.3200.1310/-1280.823.1280.777@0.23.3200.1310" timestamp="1587290664619" />
+    <state x="1200" y="418" key="Vcs.Push.Dialog.v2" timestamp="1587290667613">
+      <screen x="0" y="23" width="3200" height="1310" />
+    </state>
+    <state x="1200" y="418" key="Vcs.Push.Dialog.v2/0.23.3200.1310/-1280.823.1280.777@0.23.3200.1310" timestamp="1587290667613" />
+    <state x="1280" y="23" width="1066" height="1310" key="com.intellij.ide.util.TipDialog" timestamp="1588328422250">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1145" y="-970" key="com.intellij.ide.util.TipDialog/0.23.1440.877/210.-1057.1920.1057/-1390.-877.1600.877@210.-1057.1920.1057" timestamp="1586431758629" />
+    <state x="-857" y="-805" key="com.intellij.ide.util.TipDialog/0.23.1440.877/362.-1057.1920.1057/-1558.-1057.1920.1057@-1558.-1057.1920.1057" timestamp="1584270882976" />
+    <state x="701" y="95" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1584410874424" />
     <state x="438" y="346" key="com.intellij.ide.util.TipDialog/0.23.1600.877/1600.23.3008.1669@0.23.1600.877" timestamp="1583942268133" />
     <state x="525" y="412" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1583591716222" />
+    <state x="1280" y="23" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.23.3200.1310/1920.1356.1440.877@0.23.1920.1057" timestamp="1588328322139" />
+    <state x="1280" y="23" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.23.3200.1310/1920.1356.1440.877@1920.23.3200.1310" timestamp="1588328422250" />
+    <state x="1247" y="109" key="com.intellij.ide.util.TipDialog/0.23.2560.1044/-1440.23.1440.877@0.23.2560.1044" timestamp="1587319035984" />
+    <state x="0" y="23" width="892" height="1310" key="com.intellij.ide.util.TipDialog/0.23.3200.1310/532.1356.1440.877@0.23.3200.1310" timestamp="1587531989068" />
+    <state x="2148" y="23" width="1066" height="1310" key="com.intellij.ide.util.TipDialog/1018.1356.1280.777/0.23.3200.1310@0.23.3200.1310" timestamp="1588268032067" />
+    <state x="4054" y="23" key="com.intellij.ide.util.TipDialog/1920.23.3200.1310/1920.1356.1440.877/0.23.1920.1057@1920.23.3200.1310" timestamp="1588303996972" />
     <state x="584" y="232" key="com.intellij.ide.util.TipDialog/216.923.1440.877/0.23.1600.877@0.23.1600.877" timestamp="1584213606151" />
-    <state x="1107" y="23" width="493" height="877" key="dock-window-1" timestamp="1584213625621">
-      <screen x="0" y="23" width="1600" height="877" />
+    <state x="1791" y="134" key="com.intellij.ide.util.TipDialog/532.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1587572095501" />
+    <state x="-653" y="23" width="493" height="877" maximized="true" key="dock-window-1" timestamp="1584266304138">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="452" y="-877" width="693" height="877" key="dock-window-1/-295.-1057.1920.1057/0.23.1440.877@-295.-1057.1920.1057" timestamp="1584025624446" />
     <state x="2012" y="-1669" width="693" height="1662" key="dock-window-1/-303.-1669.3008.1669/0.23.1440.877@-303.-1669.3008.1669" timestamp="1584052197683" />
     <state x="1108" y="23" width="332" height="874" key="dock-window-1/-303.-1669.3008.1669/0.23.1440.877@0.23.1440.877" timestamp="1584123146197" />
+    <state x="-3840" y="0" width="958" height="1080" key="dock-window-1/0.0.1440.900/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584265769446" />
+    <state x="-1892" y="23" width="1877" height="1058" maximized="true" key="dock-window-1/0.23.1440.877/-3840.23.1920.1057/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584266238136" />
+    <state x="-653" y="23" width="493" height="877" maximized="true" key="dock-window-1/0.23.1440.877/-3840.23.1920.1057/-1920.23.1920.1057@-3840.23.1920.1057" timestamp="1584266304138" />
     <state x="997" y="23" width="443" height="877" key="dock-window-1/0.23.1440.877@0.23.1440.877" timestamp="1584206661939" />
     <state x="1107" y="23" width="493" height="877" key="dock-window-1/216.923.1440.877/0.23.1600.877@216.923.1440.877" timestamp="1584213625621" />
     <state x="-120" y="-1291" width="670" height="676" key="search.everywhere.popup" timestamp="1583984750794">
