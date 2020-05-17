@@ -4,7 +4,6 @@
     <list default="true" id="fdcb77dd-9e7b-49db-a093-49696ec7d3fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/setup_options.md" beforeDir="false" afterPath="$PROJECT_DIR$/setup/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +109,7 @@
       <workItem from="1588488491530" duration="374000" />
       <workItem from="1588551950849" duration="2856000" />
       <workItem from="1588648106609" duration="484000" />
-      <workItem from="1589703281183" duration="1229000" />
+      <workItem from="1589703281183" duration="1603000" />
     </task>
     <task id="LOCAL-00001" summary="read me overview">
       <created>1587290665050</created>
@@ -154,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589703729815</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="formatting">
+      <created>1589704551191</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589704551191</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add samples">
+      <created>1589704666841</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589704666841</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,25 +189,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="read me overview" />
     <MESSAGE value="deleted old files" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted old files" />
+    <MESSAGE value="formatting" />
+    <MESSAGE value="add samples" />
+    <option name="LAST_COMMIT_MESSAGE" value="add samples" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-78" y="-1056" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583976363191">
       <screen x="-303" y="-1669" width="3008" height="1669" />
     </state>
     <state x="-78" y="-1056" key="#com.intellij.fileTypes.FileTypeChooser/-303.-1669.3008.1669/0.23.1440.877@-303.-1669.3008.1669" timestamp="1583976363191" />
-    <state x="1169" y="280" key="CommitChangelistDialog2" timestamp="1589704550937">
+    <state x="1169" y="280" key="CommitChangelistDialog2" timestamp="1589704666525">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="3089" y="280" key="CommitChangelistDialog2/0.23.1920.1057/1920.23.3200.1310/1920.1356.1440.877@1920.23.3200.1310" timestamp="1588329205160" />
     <state x="1169" y="280" key="CommitChangelistDialog2/0.23.3200.1310/-1280.823.1280.777@0.23.3200.1310" timestamp="1587290664619" />
-    <state x="1169" y="280" key="CommitChangelistDialog2/916.1356.1440.877/-1920.276.1920.1057/0.23.3200.1310@0.23.3200.1310" timestamp="1589704550937" />
-    <state x="1200" y="418" key="Vcs.Push.Dialog.v2" timestamp="1589704554816">
+    <state x="1169" y="280" key="CommitChangelistDialog2/916.1356.1440.877/-1920.276.1920.1057/0.23.3200.1310@0.23.3200.1310" timestamp="1589704666525" />
+    <state x="1200" y="418" key="Vcs.Push.Dialog.v2" timestamp="1589704672378">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="3120" y="418" key="Vcs.Push.Dialog.v2/0.23.1920.1057/1920.23.3200.1310/1920.1356.1440.877@1920.23.3200.1310" timestamp="1588329214148" />
     <state x="1200" y="418" key="Vcs.Push.Dialog.v2/0.23.3200.1310/-1280.823.1280.777@0.23.3200.1310" timestamp="1587290667613" />
-    <state x="1200" y="418" key="Vcs.Push.Dialog.v2/916.1356.1440.877/-1920.276.1920.1057/0.23.3200.1310@0.23.3200.1310" timestamp="1589704554816" />
+    <state x="1200" y="418" key="Vcs.Push.Dialog.v2/916.1356.1440.877/-1920.276.1920.1057/0.23.3200.1310@0.23.3200.1310" timestamp="1589704672378" />
     <state x="1280" y="23" width="1066" height="1310" key="com.intellij.ide.util.TipDialog" timestamp="1588328422250">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
