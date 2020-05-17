@@ -11,3 +11,4 @@ Open source Container orchestration engine that helps in managing containerized 
 [Setup in different cloud providers](setup/readme.md)
 
 #### Sample programs
+[Kubernetes objects - sample](samples/readme.md)
