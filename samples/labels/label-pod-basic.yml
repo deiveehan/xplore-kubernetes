@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: label-pod-basic
+  labels:
+    app: label-pod-basic
+spec:
+  containers:
+    - name: label-pod-basic
+      image: busybox
+      imagePullPolicy: IfNotPresent
+  restartPolicy: Always

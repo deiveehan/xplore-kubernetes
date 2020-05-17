@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: vol-pod-basic
+  labels:
+    app: vol-pod-basic
+spec:
+  containers:
+    - name: vol-pod-basic
+      image: busybox
+      command: ["/bin/sh", "-c", "while true; do sleep 36000; done"]
+      imagePullPolicy: IfNotPresent
+      volumeMounts:
+        - mountPath: /tmp/storage
+          name: my-volume
+  volumes:
+    - name: my-volume
+      emptyDir: {}
+  restartPolicy: Always

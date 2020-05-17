@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-securitycontext-pod
+spec:
+  securityContext:
+    runAsUser: 2000 #change to some other value to check if the user has access to the file system
+    fsGroup: 3000 #change to some other value to check if the group has access to the file system
+  containers:
+    - name: myapp-container
+      image: busybox
+      command: ['sh', '-c', "cat /message/message.txt && sleep 3600"]
+      volumeMounts:
+        - name: message-volume
+          mountPath: /message
+  volumes:
+    - name: message-volume
+      hostPath:
+        path: /etc/message

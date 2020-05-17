@@ -106,6 +106,7 @@
       <workItem from="1588488491530" duration="374000" />
       <workItem from="1588551950849" duration="2856000" />
       <workItem from="1588648106609" duration="484000" />
+      <workItem from="1589703281183" duration="287000" />
     </task>
     <task id="LOCAL-00001" summary="read me overview">
       <created>1587290665050</created>
@@ -121,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588329205565</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="deleted old files">
+      <created>1589703464093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589703464093</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,23 +150,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="read me overview" />
-    <option name="LAST_COMMIT_MESSAGE" value="read me overview" />
+    <MESSAGE value="deleted old files" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted old files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-78" y="-1056" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583976363191">
       <screen x="-303" y="-1669" width="3008" height="1669" />
     </state>
     <state x="-78" y="-1056" key="#com.intellij.fileTypes.FileTypeChooser/-303.-1669.3008.1669/0.23.1440.877@-303.-1669.3008.1669" timestamp="1583976363191" />
-    <state x="3089" y="280" key="CommitChangelistDialog2" timestamp="1588329205160">
-      <screen x="1920" y="23" width="3200" height="1310" />
+    <state x="1169" y="280" key="CommitChangelistDialog2" timestamp="1589703463630">
+      <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="3089" y="280" key="CommitChangelistDialog2/0.23.1920.1057/1920.23.3200.1310/1920.1356.1440.877@1920.23.3200.1310" timestamp="1588329205160" />
     <state x="1169" y="280" key="CommitChangelistDialog2/0.23.3200.1310/-1280.823.1280.777@0.23.3200.1310" timestamp="1587290664619" />
-    <state x="3120" y="418" key="Vcs.Push.Dialog.v2" timestamp="1588329214148">
-      <screen x="1920" y="23" width="3200" height="1310" />
+    <state x="1169" y="280" key="CommitChangelistDialog2/916.1356.1440.877/-1920.276.1920.1057/0.23.3200.1310@0.23.3200.1310" timestamp="1589703463630" />
+    <state x="1200" y="418" key="Vcs.Push.Dialog.v2" timestamp="1589703567772">
+      <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="3120" y="418" key="Vcs.Push.Dialog.v2/0.23.1920.1057/1920.23.3200.1310/1920.1356.1440.877@1920.23.3200.1310" timestamp="1588329214148" />
     <state x="1200" y="418" key="Vcs.Push.Dialog.v2/0.23.3200.1310/-1280.823.1280.777@0.23.3200.1310" timestamp="1587290667613" />
+    <state x="1200" y="418" key="Vcs.Push.Dialog.v2/916.1356.1440.877/-1920.276.1920.1057/0.23.3200.1310@0.23.3200.1310" timestamp="1589703567772" />
     <state x="1280" y="23" width="1066" height="1310" key="com.intellij.ide.util.TipDialog" timestamp="1588328422250">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

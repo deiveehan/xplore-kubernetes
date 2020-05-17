@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: calc
+spec:
+  template:
+    spec:
+      containers:
+        - name: calc
+          image: busybox
+          command: ["sh", "-c", "echo 1 and 1 is 2"]
+      restartPolicy: Never
+  backoffLimit: 4   #If it fails 4 times, then exit
