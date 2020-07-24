@@ -8,7 +8,7 @@ Sample reference for kuberentes
 ### What is Kubernetes: 
 Open source Container orchestration engine that helps in managing containerized apps, automated deployment and scaling. 
 
-<img src="Architecture/images/architecture.001.jpeg"></img>
+<img src="cka/19_Core_Concepts/Understand-the-Kubernetes-cluster-architecture/images/architecture.001.jpeg"></img>
 [Architecture](Architecture/overview.md)
 
 ### Kubernetes setup
@@ -16,5 +16,3 @@ Open source Container orchestration engine that helps in managing containerized 
 
 #### Sample programs
 [Kubernetes objects - sample](samples/readme.md)
-
-

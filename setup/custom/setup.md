@@ -24,27 +24,32 @@ deb https://apt.kubernetes.io/ kubernetes-xenial main
 EOF
 ```
 
----- To fix a defect in k8s 1.13.4
+# Install 
+- Docker CLI
+- Kubelet CLI
+- Kubeadm CLI
+- Kubectl CLI
+
 ```shell script
 sudo apt-get update
-
-sudo apt-get install -y docker-ce=18.06.1~ce~3-0~ubuntu kubelet=1.13.5-00 kubeadm=1.13.5-00 kubectl=1.13.5-00
+sudo apt-get install -y docker-ce 
+sudo apt-get install -y kubelet
+sudo apt-get install -y kubeadm
+sudo apt-get install -y kubectl
 ```
 #### Prevent the following packages from automatically upgrading:
-- kubelet
-- kubeadm
-- kubectl
-
+```shell script
 sudo apt-mark hold docker-ce kubelet kubeadm kubectl
+```
 
 #### Enable iptables bridge call: 
 ```shell script
 echo "net.bridge.bridge-nf-call-iptables=1" | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 ```
-
-## Master node setup
-***************************
+*************************
+#### Master nodes
+*************************
 #### Setup CIDR value 
 ```shell script
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16
@@ -58,9 +63,13 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 #Install flannel networking
 ```shell script
-kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/bc79dd1505b0c8681ece4de4c0d86c5cd2643275/Documentation/kube-flannel.yml
+kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
-#### On each worker nodes do these..
+
+*************************
+#### WORKER NODES
+*************************
+
 -------------
 ```shell script
 sudo kubeadm join $controller_private_ip:6443 --token $token --discovery-token-ca-cert-hash $hash

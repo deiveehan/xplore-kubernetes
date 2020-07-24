@@ -22,6 +22,19 @@
 
 ### Setup steps
 
-1. [Minikube](minikube/minikube.md)
+1. [Minikube](local/minikube/minikube.md)
 2. [Custom in multiple machines](setup/custom/setup.md)
 3. [GCP](gcp/setup.md)
+
+
+### Bootstrapping options
+
+* [kubeadm](custom/setup.md)
+* [Installers]
+  * Enterprise PKS
+  * kops
+  * kubespray (BYO infrastructure)
+* Managed Kubernetes provider
+  * GKE
+  * EKS
+  * AKS

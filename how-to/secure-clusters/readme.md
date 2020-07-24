@@ -8,20 +8,19 @@ API server can be called by
 
 API server provides CRUD APIs that store state to the database. 
 
-####Authentication
-- Identify who is sending the request
-- examing the http header / certificate
+![](.readme_images/1b44ebcd.png)
 
-####Authorization
-- See if the user create another pod (access an API)
+### Testing
+k run test --image=dvn/kubectl-proxy -n my-ns
 
-####Admission
-- if request is to perform CRUD a resource, admission control 
-- if request is to only read a resource, admission is skipped/
-- goes through all the plugin allowing the plugin to modify a resource. 
 
-####Validate
-- validate the resource and stores the data in etcd
+Create a new pod in a new namespace. 
+
+```shell script
+k run test --image=chadmcrowell/kubectl-proxy -n my-ns
+kubectl exec -it test-659588d944-m6qfm -n my-ns sh
+curl localhost:8001/ap/v1/namespaces/my-ns/services
+```
 
 Secured information about the user is stored in .kubeconfig in your local
 .kube/config has the below information:
