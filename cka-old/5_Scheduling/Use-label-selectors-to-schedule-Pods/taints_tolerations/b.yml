@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bee
+  labels:
+    app: bee
+spec:
+  containers:
+    - name: bee
+      image: nginx
+      imagePullPolicy: IfNotPresent
+  restartPolicy: Always
+  tolerations:
+    - key: "spray"
+      value: "mortein"
+      operator:  "Equal"
+      effect: "NoSchedule"

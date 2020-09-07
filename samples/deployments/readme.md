@@ -2,6 +2,8 @@
 
 are a way to manage a set of pods to add functionality to handle replicasets, scaling pods etc., 
 
+
+
 #### Create a basic deployment
 
 Create [Simple deployment](deployment-dep-basic.yml)

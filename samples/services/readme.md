@@ -7,6 +7,9 @@ Services acts as proxy to the pods.
 * NodePort
 * Loadbalancer
 
+[Service types](service-types.md)
+
+
 #### Get started
 
 Create a basic nginx deployment that runs on port 80 [Deployment](nginx-deployment-basic.yml)

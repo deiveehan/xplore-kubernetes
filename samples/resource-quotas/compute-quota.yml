@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: compute-quota
+  namespace: test-namespace
+spec:
+  hard:
+    cpu: "1"
+    memory: 2Gi
+    pods: 10
+

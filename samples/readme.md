@@ -7,7 +7,7 @@
 * [Healthcheck](healthcheck/readme.md)
 * [Jobs](jobs/readme.md)
 * [Labels](labels/readme.md)
-* [Multi-container pod](../cka/19_Core_Concepts/Understand-the-Kubernetes-cluster-architecture/pods/multi-container-pod/readme.md)
+* [Multi-container pod](../Architecture/pods/multi-container-pod/readme.md)
 * [Namespaces](namespaces/readme.md)
 * [Secrets](secrets/readme.md)
 * [Security Contexts](securitycontexts/readme.md)

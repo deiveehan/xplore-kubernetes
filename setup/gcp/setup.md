@@ -16,7 +16,7 @@ https://cloud.google.com/sdk/docs/downloads-versioned-archives
 gcloud init
 ```
 
-### Create cluster 
+### Create cluster  
 - GCP Console
 - gcloud command
 
