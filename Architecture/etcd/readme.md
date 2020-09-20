@@ -1,5 +1,6 @@
 # etcd database
-- a simple key value database. 
+- a simple key value database that is highly available. 
+- 
 
 ## Installation
 
