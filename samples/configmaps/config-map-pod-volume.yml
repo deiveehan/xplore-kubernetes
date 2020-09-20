@@ -1,16 +1,19 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: test-configmap-pod-volume
+  creationTimestamp: null
+  labels:
+    run: cfmappod
+  name: cfmappod
 spec:
   containers:
-  - name: test-configmap-container
-    image: busybox
-    command: ['sh', '-c', "echo $(cat /etc/config/empName) && sleep 3600"]
+  - image: nginx
+    name: cfmappod
+    command: ['sh','-c',"echo $(cat /etc/xplore/configs/host) & sleep 300"]
     volumeMounts:
-    - name: config-volume
-      mountPath: /etc/config
+      - mountPath: /etc/xplore/configs
+        name: config-volume
   volumes:
   - name: config-volume
     configMap:
-      name: test-configmap-sample
+      name: cfmap

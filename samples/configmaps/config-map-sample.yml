@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: test-configmap-sample
+  name: cfmap
 data:
-  empName: Deivee
-  tech: Kubernetes
+  host: 192.10.233.43
+  user-name: dbadmin

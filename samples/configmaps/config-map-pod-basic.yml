@@ -1,15 +1,24 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: test-configmap-pod
+  creationTimestamp: null
+  labels:
+    run: cfmappod
+  name: cfmappod
 spec:
   containers:
-  - name: test-configmap-container
-    image: busybox
-    command: ['sh', '-c', "echo ${EMP_NAME} && sleep 300"]
-    env:
-    - name: EMP_NAME
-      valueFrom:
-        configMapKeyRef:
-          name: test-configmap-sample
-          key: empName
+    - image: nginx
+      name: cfmappod
+      command: ['sh','-c',"echo ${DB_HOST} & sleep 300"]
+      resources: {}
+      env:
+        - name: DB_HOST
+          valueFrom:
+            configMapKeyRef:
+              name: cfmap
+              key: host
+        - name: USER_ID
+          valueFrom:
+            configMapKeyRef:
+              name: cfmap
+              key: user-name
