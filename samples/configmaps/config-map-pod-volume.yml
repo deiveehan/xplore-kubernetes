@@ -3,12 +3,12 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: cfmappod
-  name: cfmappod
+    run: cfmappodvolume
+  name: cfmappodvolume
 spec:
   containers:
   - image: nginx
-    name: cfmappod
+    name: cfmappodvolume
     command: ['sh','-c',"echo $(cat /etc/xplore/configs/host) & sleep 300"]
     volumeMounts:
       - mountPath: /etc/xplore/configs
