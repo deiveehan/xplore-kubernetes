@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdcb77dd-9e7b-49db-a093-49696ec7d3fa" name="Default Changelist" comment="more content">
+    <list default="true" id="fdcb77dd-9e7b-49db-a093-49696ec7d3fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/configmaps/config-map-pod-volume.yml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/configmaps/config-map-pod-volume.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/secrets/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/secrets/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/secrets/secrets-basic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/secrets/secret1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/secrets/secrets-certs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/secrets/secrets-pod-basic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/secrets/secretpod1.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +179,7 @@
       <workItem from="1600545560063" duration="3059000" />
       <workItem from="1600564547273" duration="6020000" />
       <workItem from="1600614304648" duration="1884000" />
-      <workItem from="1600621087553" duration="3658000" />
+      <workItem from="1600621087553" duration="5490000" />
     </task>
     <task id="LOCAL-00001" summary="read me overview">
       <created>1587290665050</created>
@@ -283,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600644608744</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="more content">
+      <created>1600644670675</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600644670675</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,12 +330,12 @@
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="1224" y="352" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.3200.1310@0.23.3200.1310" timestamp="1600594556440" />
-    <state x="1158" y="180" key="CommitChangelistDialog2" timestamp="1600644608458">
+    <state x="1158" y="180" key="CommitChangelistDialog2" timestamp="1600644670521">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="926" y="148" key="CommitChangelistDialog2/0.23.2560.1044/-1920.23.1920.1057@0.23.2560.1044" timestamp="1599506069527" />
     <state x="1158" y="180" key="CommitChangelistDialog2/0.23.3200.1310@0.23.3200.1310" timestamp="1600594727095" />
-    <state x="1158" y="180" key="CommitChangelistDialog2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600644608458" />
+    <state x="1158" y="180" key="CommitChangelistDialog2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600644670521" />
     <state x="353" y="534" key="GrepConsoleSound" timestamp="1600622712500">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
@@ -339,11 +349,11 @@
     <state x="-2091" y="317" key="SettingsEditor/-3200.23.3200.1310/-2313.1356.1440.877/0.23.1920.1057@-3200.23.3200.1310" timestamp="1593430388849" />
     <state x="1108" y="317" key="SettingsEditor/0.23.3200.1310@0.23.3200.1310" timestamp="1600594286657" />
     <state x="665" y="260" key="SettingsEditor/480.1103.1440.877/1920.23.3200.1310/0.23.1920.1057@0.23.1920.1057" timestamp="1593578714218" />
-    <state x="1633" y="352" key="Vcs.Push.Dialog.v2" timestamp="1600644610949">
+    <state x="1633" y="352" key="Vcs.Push.Dialog.v2" timestamp="1600644673021">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="1306" y="285" key="Vcs.Push.Dialog.v2/0.23.2560.1044/-1920.23.1920.1057@0.23.2560.1044" timestamp="1599506073581" />
-    <state x="1633" y="352" key="Vcs.Push.Dialog.v2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600644610949" />
+    <state x="1633" y="352" key="Vcs.Push.Dialog.v2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600644673021" />
     <state x="503" y="456" width="1333" height="877" key="com.intellij.ide.util.TipDialog" timestamp="1600622685529">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
