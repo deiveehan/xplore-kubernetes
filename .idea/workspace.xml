@@ -1,103 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdcb77dd-9e7b-49db-a093-49696ec7d3fa" name="Default Changelist" comment="more content">
-      <change afterPath="$PROJECT_DIR$/samples/jobs/.readme_images/3994fd2d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/rolling-update/.readme_images/6128a677.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/rolling-update/.readme_images/791f9efd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/rolling-update/.readme_images/ad1c3ee7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/rolling-update/.readme_images/baf72a26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/rolling-update/.readme_images/da146411.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/rolling-update/.readme_images/f42d9fc6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/secrets/.readme_images/48f7c4dc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/secrets/.readme_images/e79b6d4b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/volumes/.readme_images/46354328.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/volumes/.readme_images/6505949c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/volumes/volumes.md" afterDir="false" />
+    <list default="true" id="fdcb77dd-9e7b-49db-a093-49696ec7d3fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/samples/volumes/.persistent-volumes_images/4fa10e38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/volumes/.persistent-volumes_images/800b5d13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/volumes/.persistent-volumes_images/87490d86.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/volumes/.pvc-sample_images/b8c1c902.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cka/25_Cluster_Architecture_Installation_and_Configuration/use_kubeadm_to_install_a_basic_cluster/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/cka/25_Cluster_Architecture_Installation_and_Configuration/use_kubeadm_to_install_a_basic_cluster/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/deployments/deployment-dep-basic.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/deployments/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/rolling-update/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/deployments/rolling-update/rolling-dep-basic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/rolling-update/rolling-dep-basic.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/jobs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/jobs/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/secrets/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/secrets/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/volumes/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/10_Troubleshooting/Troubleshoot-application-failure/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/10_Troubleshooting/Troubleshoot-control-plane-failure/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/10_Troubleshooting/Troubleshoot-networking/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/10_Troubleshooting/Troubleshoot-worker-node-failure/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Cluster_Maintenance/Facilitate-operating-system-upgrades/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Cluster_Maintenance/Implement-backup-and-restore-methodologies/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Cluster_Maintenance/Understand-Kubernetes-cluster-upgrade-process/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Deploy-and-configure-network-load-balancer/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Know-how-to-configure-and-use-the-cluster-DNS/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Know-how-to-use-Ingress-rules/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Understand-CNI/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Understand-Pod-networking-concepts/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Understand-service-networking/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Understand-the-networking-configuration-on-the-cluster-nodes/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Analyse-end-to-end-tests-results/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Choose-a-network-solution/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Choose-your-Kubernetes-infrastructure-configuration/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Configure-a-Highly-Available-Kubernetes-cluster/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Configure-secure-cluster-communications/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Design-a-Kubernetes-cluster/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Install-Kubernetes-masters-and-nodes/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Install-and-use-kubeadm-to-install-configure,-and-manage-Kubernetes-clusters/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Know-where-to-get-the-Kubernetes-release-binaries/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Provision-underlying-infrastructure-to-deploy-a-Kubernetes-cluster/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Run-Node-end-to-end-tests/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Run-end-to-end-tests-on-your-cluster/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Create-and-manage-TLS-certificates-for-cluster-components/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Define-security-contexts/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Know-how-to-configure-authentication-and-authorization/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Know-to-configure-network-policies/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Secure-persistent-key-value-store/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Understand-Kubernetes-security-primitives/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Work-with-images-securely/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/19_Core_Concepts/Understand-Services-and-other-network-primitives/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/19_Core_Concepts/Understand-the-Kubernetes-API-primitives/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Logging_Monitoring/Manage-application-logs/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Logging_Monitoring/Manage-cluster-component-logs/.readme_images/9c65a576.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Logging_Monitoring/Manage-cluster-component-logs/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Logging_Monitoring/Understand-how-to-monitor-all-cluster-components/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Logging_Monitoring/Understand-how-to-monitor-applications/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Display-scheduler-events/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Know-how-to-configure-the-Kubernetes-scheduler/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Manually-schedule-a-pod-without-a-scheduler/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Understand-how-resource-limits-can-affect-Pod-scheduling/LimitRange/memory-defaults.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Understand-how-resource-limits-can-affect-Pod-scheduling/LimitRange/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Understand-how-resource-limits-can-affect-Pod-scheduling/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Understand-how-to-run-multiple-schedulers-and-how-to-configure-Pods-to-use-them/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Understand-the-role-of-DaemonSets/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Use-label-selectors-to-schedule-Pods/node-affinity/.readme_images/92efd01c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Use-label-selectors-to-schedule-Pods/node-affinity/pod-nginx-required-affinity.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Use-label-selectors-to-schedule-Pods/node-affinity/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Use-label-selectors-to-schedule-Pods/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Use-label-selectors-to-schedule-Pods/taints_tolerations/b.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Use-label-selectors-to-schedule-Pods/taints_tolerations/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/7_Storage/Know-how-to-configure-applications-with-persistent-storage/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/7_Storage/Understand-Kubernetes-storage-objects/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/7_Storage/Understand-access-modes-for-volumes/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/7_Storage/Understand-persistent-volume-claims-primitive/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/7_Storage/Understand-persistent-volumes-and-know-how-to-create-them/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/.temp_images/01ce734a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/.temp_images/4e3b2965.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/.temp_images/512b7465.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/.temp_images/fd48154a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/Know-how-to-scale-applications/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/Know-various-ways-to-configure-applications/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/Understand-Deployments-and-how-to-perform-rolling-updates-and-rollbacks/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/Understand-the-primitives-necessary-to-create-a-self-healing-application/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/temp.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/backup/identifying-failure-within-the-kuberetes-cluster/troubleshooting-application-failure/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/backup/identifying-failure-within-the-kuberetes-cluster/troubleshooting-worker-node-failure/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/backup/logging-and-monitoring/manage-application-logs/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/backup/trouble-shooting/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/backup/view-logs/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/cka-old/tips.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +194,7 @@
       <workItem from="1607991159901" duration="6309000" />
       <workItem from="1608099151162" duration="495000" />
       <workItem from="1608566857902" duration="13382000" />
-      <workItem from="1608659569499" duration="4425000" />
+      <workItem from="1608659569499" duration="8045000" />
     </task>
     <task id="LOCAL-00001" summary="read me overview">
       <created>1587290665050</created>
@@ -420,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600647270406</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Persistent volumes, jobs, cron jobs and other samples.">
+      <created>1608706282896</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608706282896</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +361,8 @@
     <MESSAGE value="add samples" />
     <MESSAGE value="fix hyperlink" />
     <MESSAGE value="more content" />
-    <option name="LAST_COMMIT_MESSAGE" value="more content" />
+    <MESSAGE value="Persistent volumes, jobs, cron jobs and other samples." />
+    <option name="LAST_COMMIT_MESSAGE" value="Persistent volumes, jobs, cron jobs and other samples." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1200" y="343" key="#Plugins" timestamp="1600594294770">
@@ -456,15 +373,16 @@
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="1224" y="352" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.3200.1310@0.23.3200.1310" timestamp="1600594556440" />
-    <state x="1158" y="180" key="CommitChangelistDialog2" timestamp="1600647270203">
-      <screen x="0" y="23" width="3200" height="1310" />
-    </state>
-    <state x="1158" y="180" key="CommitChangelistDialog2/0.23.3200.1310@0.23.3200.1310" timestamp="1600594727095" />
-    <state x="1158" y="180" key="CommitChangelistDialog2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600647270203" />
-    <state x="353" y="535" key="GrepConsoleSound" timestamp="1608705728862">
+    <state x="1158" y="182" key="CommitChangelistDialog2" timestamp="1608706282316">
       <screen x="0" y="25" width="3200" height="1308" />
     </state>
-    <state x="353" y="535" key="GrepConsoleSound/0.25.3200.1308@0.25.3200.1308" timestamp="1608705728862" />
+    <state x="1158" y="180" key="CommitChangelistDialog2/0.23.3200.1310@0.23.3200.1310" timestamp="1600594727095" />
+    <state x="1158" y="182" key="CommitChangelistDialog2/0.25.3200.1308@0.25.3200.1308" timestamp="1608706282316" />
+    <state x="1158" y="180" key="CommitChangelistDialog2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600647270203" />
+    <state x="353" y="535" key="GrepConsoleSound" timestamp="1608709376412">
+      <screen x="0" y="25" width="3200" height="1308" />
+    </state>
+    <state x="353" y="535" key="GrepConsoleSound/0.25.3200.1308@0.25.3200.1308" timestamp="1608709376412" />
     <state x="353" y="534" key="GrepConsoleSound/279.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600581868222" />
     <state x="353" y="534" key="GrepConsoleSound/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600662368832" />
     <state x="353" y="535" key="GrepConsoleSound/946.1358.1440.875/0.25.3200.1308@0.25.3200.1308" timestamp="1608623385014" />
@@ -472,9 +390,10 @@
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="1108" y="317" key="SettingsEditor/0.23.3200.1310@0.23.3200.1310" timestamp="1600594286657" />
-    <state x="1633" y="352" key="Vcs.Push.Dialog.v2" timestamp="1600647273105">
-      <screen x="0" y="23" width="3200" height="1310" />
+    <state x="1633" y="353" key="Vcs.Push.Dialog.v2" timestamp="1608706285860">
+      <screen x="0" y="25" width="3200" height="1308" />
     </state>
+    <state x="1633" y="353" key="Vcs.Push.Dialog.v2/0.25.3200.1308@0.25.3200.1308" timestamp="1608706285860" />
     <state x="1633" y="352" key="Vcs.Push.Dialog.v2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600647273105" />
     <state x="503" y="456" width="1333" height="877" key="com.intellij.ide.util.TipDialog" timestamp="1600842834567">
       <screen x="0" y="23" width="3200" height="1310" />
