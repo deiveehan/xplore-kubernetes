@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: job-with-random-errors
+spec:
+  completions: 3
+  parallelism: 3
+  template:
+    spec:
+      containers:
+        - name: job-with-random-errors
+          image: kodekloud/random-error
+      restartPolicy: Never
+  backoffLimit: 4   #If it fails 4 times, then exit

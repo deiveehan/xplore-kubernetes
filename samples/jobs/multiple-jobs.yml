@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: calc-multiple
+spec:
+  completions: 3
+  parallelism: 3
+  template:
+    spec:
+      containers:
+        - name: calc-multiple
+          image: busybox
+          command: ["sh", "-c", "echo 1 and 1 is 2"]
+      restartPolicy: Never
+  backoffLimit: 4   #If it fails 4 times, then exit
