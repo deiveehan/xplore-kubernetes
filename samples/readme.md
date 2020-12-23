@@ -1,7 +1,7 @@
 ### Sample programs
 
 #### Kubernetes objects
-* [Deployments](deployments/readme.md)
+* [Deployments](rolling-update/readme.md)
 * [Services](services/readme.md)
 * [Config maps](configmaps/readme.md)
 * [Healthcheck](healthcheck/readme.md)

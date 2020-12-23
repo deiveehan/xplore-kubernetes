@@ -1,12 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdcb77dd-9e7b-49db-a093-49696ec7d3fa" name="Default Changelist" comment="">
+    <list default="true" id="fdcb77dd-9e7b-49db-a093-49696ec7d3fa" name="Default Changelist" comment="more content">
+      <change afterPath="$PROJECT_DIR$/samples/jobs/.readme_images/3994fd2d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/rolling-update/.readme_images/6128a677.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/rolling-update/.readme_images/791f9efd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/rolling-update/.readme_images/ad1c3ee7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/rolling-update/.readme_images/baf72a26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/rolling-update/.readme_images/da146411.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/rolling-update/.readme_images/f42d9fc6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.readme_images/48f7c4dc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.readme_images/e79b6d4b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/volumes/.readme_images/46354328.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/volumes/.readme_images/6505949c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/volumes/volumes.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cka/25_Cluster_Architecture_Installation_and_Configuration/use_kubeadm_to_install_a_basic_cluster/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/cka/25_Cluster_Architecture_Installation_and_Configuration/use_kubeadm_to_install_a_basic_cluster/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/deployments/deployment-dep-basic.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/deployments/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/rolling-update/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/deployments/rolling-update/rolling-dep-basic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/rolling-update/rolling-dep-basic.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/jobs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/jobs/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samples/secrets/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/secrets/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/secrets/secrets-basic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/secrets/secret1.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/secrets/secrets-certs.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/secrets/secrets-pod-basic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/secrets/secretpod1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/volumes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/10_Troubleshooting/Troubleshoot-application-failure/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/10_Troubleshooting/Troubleshoot-control-plane-failure/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/10_Troubleshooting/Troubleshoot-networking/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/10_Troubleshooting/Troubleshoot-worker-node-failure/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Cluster_Maintenance/Facilitate-operating-system-upgrades/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Cluster_Maintenance/Implement-backup-and-restore-methodologies/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Cluster_Maintenance/Understand-Kubernetes-cluster-upgrade-process/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Deploy-and-configure-network-load-balancer/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Know-how-to-configure-and-use-the-cluster-DNS/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Know-how-to-use-Ingress-rules/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Understand-CNI/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Understand-Pod-networking-concepts/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Understand-service-networking/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/11_Networking/Understand-the-networking-configuration-on-the-cluster-nodes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Analyse-end-to-end-tests-results/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Choose-a-network-solution/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Choose-your-Kubernetes-infrastructure-configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Configure-a-Highly-Available-Kubernetes-cluster/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Configure-secure-cluster-communications/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Design-a-Kubernetes-cluster/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Install-Kubernetes-masters-and-nodes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Install-and-use-kubeadm-to-install-configure,-and-manage-Kubernetes-clusters/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Know-where-to-get-the-Kubernetes-release-binaries/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Provision-underlying-infrastructure-to-deploy-a-Kubernetes-cluster/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Run-Node-end-to-end-tests/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Installation_configuration_validation/Run-end-to-end-tests-on-your-cluster/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Create-and-manage-TLS-certificates-for-cluster-components/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Define-security-contexts/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Know-how-to-configure-authentication-and-authorization/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Know-to-configure-network-policies/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Secure-persistent-key-value-store/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Understand-Kubernetes-security-primitives/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/12_Security/Work-with-images-securely/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/19_Core_Concepts/Understand-Services-and-other-network-primitives/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/19_Core_Concepts/Understand-the-Kubernetes-API-primitives/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Logging_Monitoring/Manage-application-logs/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Logging_Monitoring/Manage-cluster-component-logs/.readme_images/9c65a576.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Logging_Monitoring/Manage-cluster-component-logs/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Logging_Monitoring/Understand-how-to-monitor-all-cluster-components/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Logging_Monitoring/Understand-how-to-monitor-applications/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Display-scheduler-events/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Know-how-to-configure-the-Kubernetes-scheduler/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Manually-schedule-a-pod-without-a-scheduler/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Understand-how-resource-limits-can-affect-Pod-scheduling/LimitRange/memory-defaults.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Understand-how-resource-limits-can-affect-Pod-scheduling/LimitRange/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Understand-how-resource-limits-can-affect-Pod-scheduling/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Understand-how-to-run-multiple-schedulers-and-how-to-configure-Pods-to-use-them/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Understand-the-role-of-DaemonSets/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Use-label-selectors-to-schedule-Pods/node-affinity/.readme_images/92efd01c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Use-label-selectors-to-schedule-Pods/node-affinity/pod-nginx-required-affinity.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Use-label-selectors-to-schedule-Pods/node-affinity/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Use-label-selectors-to-schedule-Pods/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Use-label-selectors-to-schedule-Pods/taints_tolerations/b.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/5_Scheduling/Use-label-selectors-to-schedule-Pods/taints_tolerations/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/7_Storage/Know-how-to-configure-applications-with-persistent-storage/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/7_Storage/Understand-Kubernetes-storage-objects/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/7_Storage/Understand-access-modes-for-volumes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/7_Storage/Understand-persistent-volume-claims-primitive/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/7_Storage/Understand-persistent-volumes-and-know-how-to-create-them/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/.temp_images/01ce734a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/.temp_images/4e3b2965.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/.temp_images/512b7465.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/.temp_images/fd48154a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/Know-how-to-scale-applications/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/Know-various-ways-to-configure-applications/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/Understand-Deployments-and-how-to-perform-rolling-updates-and-rollbacks/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/Understand-the-primitives-necessary-to-create-a-self-healing-application/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/8_Application_Lifecycle_Management/temp.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/backup/identifying-failure-within-the-kuberetes-cluster/troubleshooting-application-failure/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/backup/identifying-failure-within-the-kuberetes-cluster/troubleshooting-worker-node-failure/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/backup/logging-and-monitoring/manage-application-logs/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/backup/trouble-shooting/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/backup/view-logs/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/cka-old/tips.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +107,13 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="xplore-kubernetes">
-      <favorite_root url="file://$PROJECT_DIR$/reference/commands-reference.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-    </favorites_list>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="4f11b394-d23c-4a1d-bb32-5485b28039a0" />
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="gke_ctrl-space-projects_us-central1-c_network-policyt-cluster" />
+    <option name="namespace" value="default" />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -39,7 +130,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -49,36 +139,43 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="MariaDB" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cka/10_storage" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/samples/volumes" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ckad/observability/readiness-liveness-probe" />
+      <recent name="$PROJECT_DIR$/samples/rolling-update" />
+      <recent name="$PROJECT_DIR$/samples" />
+      <recent name="$PROJECT_DIR$/samples/deployments/rolling-update" />
       <recent name="$PROJECT_DIR$/setup" />
-      <recent name="$PROJECT_DIR$/setup/local" />
-      <recent name="$PROJECT_DIR$/cka/5_Scheduling/Use-label-selectors-to-schedule-Pods" />
-      <recent name="$PROJECT_DIR$/samples/resource-quotas" />
-      <recent name="$PROJECT_DIR$/samples/namespaces" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/samples/volumes" />
+      <recent name="$PROJECT_DIR$/ckad" />
       <recent name="$PROJECT_DIR$/cka/10_storage" />
       <recent name="$PROJECT_DIR$/cka/25_Cluster_Architecture_Installation_and_Configuration" />
       <recent name="$PROJECT_DIR$/cka/19_Core_Concepts/Understand-the-Kubernetes-cluster-architecture/images" />
-      <recent name="$PROJECT_DIR$/multi-container-pods" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -179,7 +276,16 @@
       <workItem from="1600545560063" duration="3059000" />
       <workItem from="1600564547273" duration="6020000" />
       <workItem from="1600614304648" duration="1884000" />
-      <workItem from="1600621087553" duration="5490000" />
+      <workItem from="1600621087553" duration="6387000" />
+      <workItem from="1600658230816" duration="6117000" />
+      <workItem from="1600710553145" duration="1388000" />
+      <workItem from="1600731933911" duration="1977000" />
+      <workItem from="1600737833809" duration="908000" />
+      <workItem from="1600842830554" duration="147000" />
+      <workItem from="1607991159901" duration="6309000" />
+      <workItem from="1608099151162" duration="495000" />
+      <workItem from="1608566857902" duration="13382000" />
+      <workItem from="1608659569499" duration="4425000" />
     </task>
     <task id="LOCAL-00001" summary="read me overview">
       <created>1587290665050</created>
@@ -293,24 +399,44 @@
       <option name="project" value="LOCAL" />
       <updated>1600644670675</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="more content">
+      <created>1600646654419</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600646654419</updated>
+    </task>
+    <task id="LOCAL-00018" summary="more content">
+      <created>1600647151539</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600647151539</updated>
+    </task>
+    <task id="LOCAL-00019" summary="more content">
+      <created>1600647270406</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600647270406</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="read me overview" />
@@ -330,65 +456,45 @@
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="1224" y="352" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.3200.1310@0.23.3200.1310" timestamp="1600594556440" />
-    <state x="1158" y="180" key="CommitChangelistDialog2" timestamp="1600644670521">
+    <state x="1158" y="180" key="CommitChangelistDialog2" timestamp="1600647270203">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
-    <state x="926" y="148" key="CommitChangelistDialog2/0.23.2560.1044/-1920.23.1920.1057@0.23.2560.1044" timestamp="1599506069527" />
     <state x="1158" y="180" key="CommitChangelistDialog2/0.23.3200.1310@0.23.3200.1310" timestamp="1600594727095" />
-    <state x="1158" y="180" key="CommitChangelistDialog2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600644670521" />
-    <state x="353" y="534" key="GrepConsoleSound" timestamp="1600622712500">
-      <screen x="0" y="23" width="3200" height="1310" />
+    <state x="1158" y="180" key="CommitChangelistDialog2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600647270203" />
+    <state x="353" y="535" key="GrepConsoleSound" timestamp="1608705728862">
+      <screen x="0" y="25" width="3200" height="1308" />
     </state>
-    <state x="1971" y="560" key="GrepConsoleSound/-80.923.1440.877/1600.23.3360.1377/0.23.1600.877@1600.23.3360.1377" timestamp="1593878875121" />
+    <state x="353" y="535" key="GrepConsoleSound/0.25.3200.1308@0.25.3200.1308" timestamp="1608705728862" />
     <state x="353" y="534" key="GrepConsoleSound/279.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600581868222" />
-    <state x="353" y="534" key="GrepConsoleSound/896.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1597581660357" />
-    <state x="353" y="534" key="GrepConsoleSound/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600622712500" />
+    <state x="353" y="534" key="GrepConsoleSound/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600662368832" />
+    <state x="353" y="535" key="GrepConsoleSound/946.1358.1440.875/0.25.3200.1308@0.25.3200.1308" timestamp="1608623385014" />
     <state x="1108" y="317" key="SettingsEditor" timestamp="1600594286657">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
-    <state x="-2091" y="317" key="SettingsEditor/-3200.23.3200.1310/-2313.1356.1440.877/0.23.1920.1057@-3200.23.3200.1310" timestamp="1593430388849" />
     <state x="1108" y="317" key="SettingsEditor/0.23.3200.1310@0.23.3200.1310" timestamp="1600594286657" />
-    <state x="665" y="260" key="SettingsEditor/480.1103.1440.877/1920.23.3200.1310/0.23.1920.1057@0.23.1920.1057" timestamp="1593578714218" />
-    <state x="1633" y="352" key="Vcs.Push.Dialog.v2" timestamp="1600644673021">
+    <state x="1633" y="352" key="Vcs.Push.Dialog.v2" timestamp="1600647273105">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
-    <state x="1306" y="285" key="Vcs.Push.Dialog.v2/0.23.2560.1044/-1920.23.1920.1057@0.23.2560.1044" timestamp="1599506073581" />
-    <state x="1633" y="352" key="Vcs.Push.Dialog.v2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600644673021" />
-    <state x="503" y="456" width="1333" height="877" key="com.intellij.ide.util.TipDialog" timestamp="1600622685529">
+    <state x="1633" y="352" key="Vcs.Push.Dialog.v2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600647273105" />
+    <state x="503" y="456" width="1333" height="877" key="com.intellij.ide.util.TipDialog" timestamp="1600842834567">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
-    <state x="839" y="24" key="com.intellij.ide.util.TipDialog/-2387.1474.1440.877/-3360.74.3360.1377/0.23.1920.1057@-3360.74.3360.1377" timestamp="1593995837868" />
-    <state x="0" y="23" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1599634763905" />
-    <state x="0" y="190" width="1333" height="877" key="com.intellij.ide.util.TipDialog/0.23.2560.1044/-1920.23.1920.1057@0.23.2560.1044" timestamp="1599874967697" />
-    <state x="1791" y="23" key="com.intellij.ide.util.TipDialog/0.23.3200.1311@0.23.3200.1311" timestamp="1592772899688" />
-    <state x="839" y="24" key="com.intellij.ide.util.TipDialog/1920.23.2560.1044/1920.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1594304625010" />
+    <state x="0" y="23" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1600731935038" />
     <state x="0" y="192" key="com.intellij.ide.util.TipDialog/1920.23.3200.1310/480.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600173943592" />
     <state x="1920" y="232" key="com.intellij.ide.util.TipDialog/1920.23.3200.1310/480.1103.1440.877/0.23.1920.1057@1920.23.3200.1310" timestamp="1600093370483" />
     <state x="503" y="707" key="com.intellij.ide.util.TipDialog/279.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600577303975" />
     <state x="503" y="229" key="com.intellij.ide.util.TipDialog/480.1103.1440.877/1920.23.3200.1310/0.23.1920.1057@0.23.1920.1057" timestamp="1600120536137" />
     <state x="1920" y="232" key="com.intellij.ide.util.TipDialog/480.1103.1440.877/1920.23.3200.1310/0.23.1920.1057@1920.23.3200.1310" timestamp="1600545574781" />
-    <state x="838" y="278" key="com.intellij.ide.util.TipDialog/896.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1597229748775" />
-    <state x="839" y="278" key="com.intellij.ide.util.TipDialog/896.1357.1440.877/0.23.3200.1311@0.23.3200.1311" timestamp="1595772492404" />
-    <state x="503" y="456" key="com.intellij.ide.util.TipDialog/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600622685529" />
-    <state x="2" y="23" width="1801" height="1044" maximized="true" key="dock-window-1" timestamp="1593578640944">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="503" y="456" key="com.intellij.ide.util.TipDialog/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600842834567" />
+    <state x="766" y="527" width="750" height="853" key="find.popup" timestamp="1608079749455">
+      <screen x="0" y="23" width="1920" height="1577" />
     </state>
-    <state x="-3200" y="23" width="531" height="1310" key="dock-window-1/-2313.1356.1440.877/-3200.23.3200.1310/0.23.1920.1057@-3200.23.3200.1310" timestamp="1593363005818" />
-    <state x="2" y="23" width="1801" height="1044" maximized="true" key="dock-window-1/-3200.23.3200.1310/-2313.1356.1440.877/0.23.1920.1057@-3200.23.3200.1310" timestamp="1593430452358" />
-    <state x="0" y="457" width="239" height="877" key="dock-window-1/896.1357.1440.877/0.23.3200.1311@0.23.3200.1311" timestamp="1593378441860" />
-    <state x="1277" y="442" width="686" height="708" key="find.popup" timestamp="1600594247111">
-      <screen x="0" y="23" width="3200" height="1310" />
-    </state>
-    <state x="-1923" y="442" width="645" height="708" key="find.popup/-3200.23.3200.1310/-2313.1356.1440.877/0.23.1920.1057@-3200.23.3200.1310" timestamp="1593430069023" />
-    <state x="1034" y="378" width="645" height="565" key="find.popup/0.23.2560.1044/-1920.23.1920.1057@0.23.2560.1044" timestamp="1599506642125" />
+    <state x="766" y="527" width="750" height="853" key="find.popup/0.23.1920.1577@0.23.1920.1577" timestamp="1608079749455" />
     <state x="1277" y="442" width="686" height="708" key="find.popup/0.23.3200.1310@0.23.3200.1310" timestamp="1600594247111" />
-    <state x="3212" y="468" width="686" height="708" key="find.popup/2527.1356.1440.877/1920.23.3200.1310/0.23.1920.1057@1920.23.3200.1310" timestamp="1596283807922" />
     <state x="1265" y="321" width="670" height="676" key="search.everywhere.popup" timestamp="1600594380476">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
-    <state x="-1935" y="321" width="670" height="676" key="search.everywhere.popup/-3200.23.3200.1310/-2313.1356.1440.877/0.23.1920.1057@-3200.23.3200.1310" timestamp="1593436063458" />
     <state x="1265" y="321" width="670" height="676" key="search.everywhere.popup/0.23.3200.1310@0.23.3200.1310" timestamp="1600594380476" />
-    <state x="1265" y="321" width="670" height="676" key="search.everywhere.popup/896.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1596324502302" />
   </component>
   <component name="masterDetails">
     <states>

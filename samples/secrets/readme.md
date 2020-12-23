@@ -21,3 +21,8 @@ kubectl create secret generic ssh-key-secret --from-file=ssh-privatekey="/home/v
 ```
 
 #### Create a pod that mounts this secret
+![](.readme_images/e79b6d4b.png)
+
+After applying this manifest yml, check the volume
+
+![](.readme_images/48f7c4dc.png)
