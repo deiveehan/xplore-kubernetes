@@ -6,3 +6,10 @@
 - [PersistentVolume](pers-vol-test.yml)
 - [PersistentVolumeClaim](pers-vol-claim-test.yml)
 - [Pod with PVC](pers-vol-pod-test.yml)
+
+
+#### Discuss
+- What happens when a PVC is deleted
+    - Retain
+    - Delete
+    - Recycle
