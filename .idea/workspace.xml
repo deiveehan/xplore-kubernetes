@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdcb77dd-9e7b-49db-a093-49696ec7d3fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/samples/volumes/.persistent-volumes_images/4fa10e38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/volumes/.persistent-volumes_images/800b5d13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/volumes/.persistent-volumes_images/87490d86.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/volumes/.pvc-sample_images/b8c1c902.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/configmaps/.readme_images/1c0976ce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/configmaps/.readme_images/d5037c2b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/configmaps/.readme_images/e4aeb5fe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/configmaps/.readme_images/f83d8781.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/configmaps/cm-simple.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckad/configuration/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/ckad/configuration/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli-reference/kubectl-samples.md" beforeDir="false" afterPath="$PROJECT_DIR$/cli-reference/kubectl-samples.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/configmaps/config-map-sample.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/configmaps/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/configmaps/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/local/k8s-the-hardway/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/setup/local/k8s-the-hardway/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +55,24 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="MariaDB" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/samples/volumes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/samples/configmaps" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/samples/configmaps" />
+      <recent name="$PROJECT_DIR$/samples/volumes" />
+      <recent name="$PROJECT_DIR$/ckad" />
+      <recent name="$PROJECT_DIR$/cka/10_storage" />
+      <recent name="$PROJECT_DIR$/cka/25_Cluster_Architecture_Installation_and_Configuration" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ckad/observability/readiness-liveness-probe" />
       <recent name="$PROJECT_DIR$/samples/rolling-update" />
       <recent name="$PROJECT_DIR$/samples" />
       <recent name="$PROJECT_DIR$/samples/deployments/rolling-update" />
       <recent name="$PROJECT_DIR$/setup" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/samples/volumes" />
-      <recent name="$PROJECT_DIR$/ckad" />
-      <recent name="$PROJECT_DIR$/cka/10_storage" />
-      <recent name="$PROJECT_DIR$/cka/25_Cluster_Architecture_Installation_and_Configuration" />
-      <recent name="$PROJECT_DIR$/cka/19_Core_Concepts/Understand-the-Kubernetes-cluster-architecture/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -194,7 +200,13 @@
       <workItem from="1607991159901" duration="6309000" />
       <workItem from="1608099151162" duration="495000" />
       <workItem from="1608566857902" duration="13382000" />
-      <workItem from="1608659569499" duration="8045000" />
+      <workItem from="1608659569499" duration="10354000" />
+      <workItem from="1608755581484" duration="2536000" />
+      <workItem from="1608883238339" duration="39000" />
+      <workItem from="1608909559996" duration="1063000" />
+      <workItem from="1609112164248" duration="1008000" />
+      <workItem from="1609119909962" duration="88000" />
+      <workItem from="1609120034719" duration="14910000" />
     </task>
     <task id="LOCAL-00001" summary="read me overview">
       <created>1587290665050</created>
@@ -336,7 +348,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608706282896</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="CKAD objectives">
+      <created>1608710553226</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608710553226</updated>
+    </task>
+    <task id="LOCAL-00022" summary="CKAD objectives">
+      <created>1608710686011</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608710686011</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Persistent volumes">
+      <created>1608783755126</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608783755126</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +395,9 @@
     <MESSAGE value="fix hyperlink" />
     <MESSAGE value="more content" />
     <MESSAGE value="Persistent volumes, jobs, cron jobs and other samples." />
-    <option name="LAST_COMMIT_MESSAGE" value="Persistent volumes, jobs, cron jobs and other samples." />
+    <MESSAGE value="CKAD objectives" />
+    <MESSAGE value="Persistent volumes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Persistent volumes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1200" y="343" key="#Plugins" timestamp="1600594294770">
@@ -373,43 +408,42 @@
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="1224" y="352" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.3200.1310@0.23.3200.1310" timestamp="1600594556440" />
-    <state x="1158" y="182" key="CommitChangelistDialog2" timestamp="1608706282316">
+    <state x="1158" y="182" key="CommitChangelistDialog2" timestamp="1608783754421">
       <screen x="0" y="25" width="3200" height="1308" />
     </state>
     <state x="1158" y="180" key="CommitChangelistDialog2/0.23.3200.1310@0.23.3200.1310" timestamp="1600594727095" />
-    <state x="1158" y="182" key="CommitChangelistDialog2/0.25.3200.1308@0.25.3200.1308" timestamp="1608706282316" />
+    <state x="1158" y="182" key="CommitChangelistDialog2/0.25.3200.1308@0.25.3200.1308" timestamp="1608783754421" />
     <state x="1158" y="180" key="CommitChangelistDialog2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600647270203" />
-    <state x="353" y="535" key="GrepConsoleSound" timestamp="1608709376412">
+    <state x="353" y="535" key="GrepConsoleSound" timestamp="1609150488127">
       <screen x="0" y="25" width="3200" height="1308" />
     </state>
     <state x="353" y="535" key="GrepConsoleSound/0.25.3200.1308@0.25.3200.1308" timestamp="1608709376412" />
     <state x="353" y="534" key="GrepConsoleSound/279.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600581868222" />
     <state x="353" y="534" key="GrepConsoleSound/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600662368832" />
-    <state x="353" y="535" key="GrepConsoleSound/946.1358.1440.875/0.25.3200.1308@0.25.3200.1308" timestamp="1608623385014" />
-    <state x="1108" y="317" key="SettingsEditor" timestamp="1600594286657">
-      <screen x="0" y="23" width="3200" height="1310" />
+    <state x="353" y="535" key="GrepConsoleSound/946.1358.1440.875/0.25.3200.1308@0.25.3200.1308" timestamp="1609150488127" />
+    <state x="1389" y="1505" key="SettingsEditor" timestamp="1609119999523">
+      <screen x="946" y="1358" width="1440" height="875" />
     </state>
     <state x="1108" y="317" key="SettingsEditor/0.23.3200.1310@0.23.3200.1310" timestamp="1600594286657" />
-    <state x="1633" y="353" key="Vcs.Push.Dialog.v2" timestamp="1608706285860">
+    <state x="1389" y="1505" key="SettingsEditor/946.1358.1440.875/0.25.3200.1308@946.1358.1440.875" timestamp="1609119999522" />
+    <state x="1633" y="353" key="Vcs.Push.Dialog.v2" timestamp="1608783791475">
       <screen x="0" y="25" width="3200" height="1308" />
     </state>
-    <state x="1633" y="353" key="Vcs.Push.Dialog.v2/0.25.3200.1308@0.25.3200.1308" timestamp="1608706285860" />
+    <state x="1633" y="353" key="Vcs.Push.Dialog.v2/0.25.3200.1308@0.25.3200.1308" timestamp="1608783791475" />
     <state x="1633" y="352" key="Vcs.Push.Dialog.v2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600647273105" />
     <state x="503" y="456" width="1333" height="877" key="com.intellij.ide.util.TipDialog" timestamp="1600842834567">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="0" y="23" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1600731935038" />
-    <state x="0" y="192" key="com.intellij.ide.util.TipDialog/1920.23.3200.1310/480.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600173943592" />
-    <state x="1920" y="232" key="com.intellij.ide.util.TipDialog/1920.23.3200.1310/480.1103.1440.877/0.23.1920.1057@1920.23.3200.1310" timestamp="1600093370483" />
     <state x="503" y="707" key="com.intellij.ide.util.TipDialog/279.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600577303975" />
-    <state x="503" y="229" key="com.intellij.ide.util.TipDialog/480.1103.1440.877/1920.23.3200.1310/0.23.1920.1057@0.23.1920.1057" timestamp="1600120536137" />
     <state x="1920" y="232" key="com.intellij.ide.util.TipDialog/480.1103.1440.877/1920.23.3200.1310/0.23.1920.1057@1920.23.3200.1310" timestamp="1600545574781" />
     <state x="503" y="456" key="com.intellij.ide.util.TipDialog/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600842834567" />
-    <state x="766" y="527" width="750" height="853" key="find.popup" timestamp="1608079749455">
-      <screen x="0" y="23" width="1920" height="1577" />
+    <state x="1277" y="443" width="1250" height="708" key="find.popup" timestamp="1609141594466">
+      <screen x="0" y="25" width="3200" height="1308" />
     </state>
     <state x="766" y="527" width="750" height="853" key="find.popup/0.23.1920.1577@0.23.1920.1577" timestamp="1608079749455" />
     <state x="1277" y="442" width="686" height="708" key="find.popup/0.23.3200.1310@0.23.3200.1310" timestamp="1600594247111" />
+    <state x="1277" y="443" width="1250" height="708" key="find.popup/946.1358.1440.875/0.25.3200.1308@0.25.3200.1308" timestamp="1609141594466" />
     <state x="1265" y="321" width="670" height="676" key="search.everywhere.popup" timestamp="1600594380476">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>

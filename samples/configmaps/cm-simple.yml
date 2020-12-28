@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sportsmap
+data:
+  player_name: Samson
+  sportCategory: Football
+  tournament: District
+  age: "26"
+  matchesPlayed: "197"
