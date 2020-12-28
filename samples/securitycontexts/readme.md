@@ -1,46 +1,41 @@
 ### Security context
 
-
 #### Prerequisite
+[Docker security basics](docker-security-basics.md)
 
-Set user and group in the worker nodes.
-#### Worker node 1 changes 
-Add new user and group. 
+#### Discussion points:
+- If you configure security at the pod level, the same is applied to all containers in the pod. Settings on the container will override pod.
+- Capabilities are supported at the container level, not the pod level.
+
+#### Create a pod with a specific useraccess
+![](.readme_images/e3b8b4cc.png)
+
 ```shell script
-sudo useradd -u 2000 container-user-0
-sudo groupadd -g 3000 container-group-0
-sudo mkdir -p /etc/message
-echo "Hi Sam" | sudo tee -a /etc/message/message.txt
-cat /etc/message/message.txt
-
-sudo chown 2000:3000 /etc/message/message.txt
-sudo chmod 640 /etc/message/message.txt
+k apply -t pod-sec-context.yml
+k exec -it secret-test-pod -- sh
 ```
+list the process after sshing into the container
+![](.readme_images/428f9f3b.png)
 
-#### Worker node 2 changes 
-Add new user and group. 
+- the process runs with user 1000
 ```shell script
-sudo useradd -u 2000 container-user-1
-sudo groupadd -g 3000 container-group-1
-sudo mkdir -p /etc/message
-echo "Hi Sam" | sudo tee -a /etc/message/message.txt
-cat /etc/message/message.txt
+#create a test file
+cd /data
+ls -l
 
-sudo chown 2000:3000 /etc/message/message.txt
-sudo chmod 640 /etc/message/message.txt
 ```
-#### Create a new pod that has security context with user permissions
-<a href="securitycontext-pod-basic.yml">Pod sample</a>
+![](.readme_images/a0d29bee.png)
+Group id is 2000
 
-#### Run sample
 ```shell script
-kubectl apply -f securitycontext-pod-basic.yml
-kubectl exec my-securitycontext-pod -- ps
-kubectl delete pod my-securitycontext-pod --now
-kubectl logs my-securitycontext-pod
-
-Change the value of the security context runAsuser & fsGroup to some other value to check access
-kubectl apply -f securitycontext-pod-basic.yml
-kubectl exec my-securitycontext-pod -- ps
-kubectl logs my-securitycontext-pod
+# create a new file. 
+cd demo
+echo hello > testfile
+ls -l
 ```
+![](.readme_images/686256ea.png)
+
+![](.readme_images/c61df77c.png)
+
+
+

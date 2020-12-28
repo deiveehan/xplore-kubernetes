@@ -2,17 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdcb77dd-9e7b-49db-a093-49696ec7d3fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/samples/configmaps/.readme_images/1c0976ce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/configmaps/.readme_images/d5037c2b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/configmaps/.readme_images/e4aeb5fe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/configmaps/.readme_images/f83d8781.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/configmaps/cm-simple.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.other-secret-types_images/08c4d748.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.other-secret-types_images/25bd6a8c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.other-secret-types_images/37395b19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.other-secret-types_images/42ea4b89.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.other-secret-types_images/8680b7ba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.other-secret-types_images/c8d6228c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.other-secret-types_images/c9463aef.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.simple-secret_images/27487d3f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.simple-secret_images/ac3ff3ec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.simple-secret_images/b05407f8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/secrets/.simple-secret_images/e63b5e3d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/securitycontexts/.readme_images/428f9f3b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/securitycontexts/.readme_images/686256ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/securitycontexts/.readme_images/a0d29bee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/securitycontexts/.readme_images/c61df77c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/securitycontexts/.readme_images/e3b8b4cc.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ckad/configuration/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/ckad/configuration/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli-reference/kubectl-samples.md" beforeDir="false" afterPath="$PROJECT_DIR$/cli-reference/kubectl-samples.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/configmaps/config-map-sample.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/configmaps/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/configmaps/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/local/k8s-the-hardway/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/setup/local/k8s-the-hardway/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/configmaps/config-map-pod-basic.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/configmaps/config-map-pod-volume.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/secrets/.readme_images/48f7c4dc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/secrets/.readme_images/7dd4c9b2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/secrets/.readme_images/9d279e4f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/secrets/.readme_images/e79b6d4b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/secrets/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/secrets/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/secrets/secret1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/secrets/secret1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/secrets/secretpod1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/secrets/pod-secret-container-var.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/secrets/secretpod2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/secrets/pod-secret-volumes.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/securitycontexts/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samples/securitycontexts/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +223,7 @@
       <workItem from="1608909559996" duration="1063000" />
       <workItem from="1609112164248" duration="1008000" />
       <workItem from="1609119909962" duration="88000" />
-      <workItem from="1609120034719" duration="14910000" />
+      <workItem from="1609120034719" duration="21965000" />
     </task>
     <task id="LOCAL-00001" summary="read me overview">
       <created>1587290665050</created>
@@ -369,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608783755126</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="config maps">
+      <created>1609150540444</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1609150540444</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +421,8 @@
     <MESSAGE value="Persistent volumes, jobs, cron jobs and other samples." />
     <MESSAGE value="CKAD objectives" />
     <MESSAGE value="Persistent volumes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Persistent volumes" />
+    <MESSAGE value="config maps" />
+    <option name="LAST_COMMIT_MESSAGE" value="config maps" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1200" y="343" key="#Plugins" timestamp="1600594294770">
@@ -408,29 +433,31 @@
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
     <state x="1224" y="352" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.3200.1310@0.23.3200.1310" timestamp="1600594556440" />
-    <state x="1158" y="182" key="CommitChangelistDialog2" timestamp="1608783754421">
+    <state x="1158" y="182" key="CommitChangelistDialog2" timestamp="1609150540136">
       <screen x="0" y="25" width="3200" height="1308" />
     </state>
     <state x="1158" y="180" key="CommitChangelistDialog2/0.23.3200.1310@0.23.3200.1310" timestamp="1600594727095" />
     <state x="1158" y="182" key="CommitChangelistDialog2/0.25.3200.1308@0.25.3200.1308" timestamp="1608783754421" />
     <state x="1158" y="180" key="CommitChangelistDialog2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600647270203" />
-    <state x="353" y="535" key="GrepConsoleSound" timestamp="1609150488127">
+    <state x="1158" y="182" key="CommitChangelistDialog2/946.1358.1440.875/0.25.3200.1308@0.25.3200.1308" timestamp="1609150540136" />
+    <state x="353" y="535" key="GrepConsoleSound" timestamp="1609159635601">
       <screen x="0" y="25" width="3200" height="1308" />
     </state>
     <state x="353" y="535" key="GrepConsoleSound/0.25.3200.1308@0.25.3200.1308" timestamp="1608709376412" />
     <state x="353" y="534" key="GrepConsoleSound/279.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600581868222" />
     <state x="353" y="534" key="GrepConsoleSound/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600662368832" />
-    <state x="353" y="535" key="GrepConsoleSound/946.1358.1440.875/0.25.3200.1308@0.25.3200.1308" timestamp="1609150488127" />
+    <state x="353" y="535" key="GrepConsoleSound/946.1358.1440.875/0.25.3200.1308@0.25.3200.1308" timestamp="1609159635601" />
     <state x="1389" y="1505" key="SettingsEditor" timestamp="1609119999523">
       <screen x="946" y="1358" width="1440" height="875" />
     </state>
     <state x="1108" y="317" key="SettingsEditor/0.23.3200.1310@0.23.3200.1310" timestamp="1600594286657" />
     <state x="1389" y="1505" key="SettingsEditor/946.1358.1440.875/0.25.3200.1308@946.1358.1440.875" timestamp="1609119999522" />
-    <state x="1633" y="353" key="Vcs.Push.Dialog.v2" timestamp="1608783791475">
+    <state x="1633" y="353" key="Vcs.Push.Dialog.v2" timestamp="1609150542916">
       <screen x="0" y="25" width="3200" height="1308" />
     </state>
     <state x="1633" y="353" key="Vcs.Push.Dialog.v2/0.25.3200.1308@0.25.3200.1308" timestamp="1608783791475" />
     <state x="1633" y="352" key="Vcs.Push.Dialog.v2/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600647273105" />
+    <state x="1633" y="353" key="Vcs.Push.Dialog.v2/946.1358.1440.875/0.25.3200.1308@0.25.3200.1308" timestamp="1609150542916" />
     <state x="503" y="456" width="1333" height="877" key="com.intellij.ide.util.TipDialog" timestamp="1600842834567">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
@@ -438,12 +465,12 @@
     <state x="503" y="707" key="com.intellij.ide.util.TipDialog/279.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600577303975" />
     <state x="1920" y="232" key="com.intellij.ide.util.TipDialog/480.1103.1440.877/1920.23.3200.1310/0.23.1920.1057@1920.23.3200.1310" timestamp="1600545574781" />
     <state x="503" y="456" key="com.intellij.ide.util.TipDialog/946.1356.1440.877/0.23.3200.1310@0.23.3200.1310" timestamp="1600842834567" />
-    <state x="1277" y="443" width="1250" height="708" key="find.popup" timestamp="1609141594466">
+    <state x="1277" y="443" width="1250" height="708" key="find.popup" timestamp="1609153556645">
       <screen x="0" y="25" width="3200" height="1308" />
     </state>
     <state x="766" y="527" width="750" height="853" key="find.popup/0.23.1920.1577@0.23.1920.1577" timestamp="1608079749455" />
     <state x="1277" y="442" width="686" height="708" key="find.popup/0.23.3200.1310@0.23.3200.1310" timestamp="1600594247111" />
-    <state x="1277" y="443" width="1250" height="708" key="find.popup/946.1358.1440.875/0.25.3200.1308@0.25.3200.1308" timestamp="1609141594466" />
+    <state x="1277" y="443" width="1250" height="708" key="find.popup/946.1358.1440.875/0.25.3200.1308@0.25.3200.1308" timestamp="1609153556645" />
     <state x="1265" y="321" width="670" height="676" key="search.everywhere.popup" timestamp="1600594380476">
       <screen x="0" y="23" width="3200" height="1310" />
     </state>
