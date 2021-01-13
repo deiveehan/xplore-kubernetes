@@ -2,6 +2,25 @@ Setup all nodes.
 **************************
 The following need to be done for all master and worker nodes. 
 
+```shell script
+lsmod | grep br_netfilter
+sudo modprobe br_netfilter
+```
+
+```shell script
+cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
+br_netfilter
+EOF
+```
+
+```shell script
+cat <<EOF | sudo tee /etc/sysctl.d/k8s.conf
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-iptables = 1
+EOF
+sudo sysctl --system
+```
+
 #### Download gpg key for docker 
 ```shell script
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
