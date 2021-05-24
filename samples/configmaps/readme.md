@@ -12,7 +12,7 @@
     * Read using the kubernetes API
 
 ### Create config map
-#### Using imperative commands
+# 1. Using imperative commands
 Create a properties file
 ![](.readme_images/66220159.png)
 
@@ -32,7 +32,7 @@ k describe cm sportsmap
 k delete cm sportsmap
 ```
 
-#### Using YAML
+# 2. Using YAML
 Create a config map configuration file.
 ![](.readme_images/e4aeb5fe.png)
 

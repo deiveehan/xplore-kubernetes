@@ -9,10 +9,6 @@ You can also use namespaces as a way to divide cluster resources between differe
 - kube-system
 - kube-public (resource made available for all users must be here.)
 
-
-
-
-
 Some commands:
 ```shell script
 Kubectl get namespaces              // Get all the namespaces in the cluster
@@ -47,4 +43,13 @@ Note:
 - Every pod belongs to some namespaces. 
 - Default namespace. 
 - System namespaces. 
-- 
+
+#### See which resources are in a namespace and which arent
+```shell script
+# In a namespace
+kubectl api-resources --namespaced=true
+
+# Not in a namespace
+kubectl api-resources --namespaced=false
+
+```

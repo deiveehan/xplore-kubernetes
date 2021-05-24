@@ -101,3 +101,5 @@ Goto master node and issue the commands to view the nodes.
 kubectl get nodes
 kubectl get pods --all-namespaces
 ```
+
+kubeadm join 10.0.2.15:6443 --token d8erpd.bmqosqd0g99bponw --discovery-token-ca-cert-hash sha256:1258c9c2fcd985c244f3ab0cc75e3b7873a09f2ea3fc4afaa0cfba45dabb6f64

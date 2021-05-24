@@ -24,7 +24,6 @@ This should provision a master vm and the worker vms
 For latest steps pls refer
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
 
-Also steps explained here..
-[Installation using kubeadm](../../custom/setup.md)
+# Master nodes
 
 
