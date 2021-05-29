@@ -5,7 +5,7 @@ metadata:
   namespace: test-namespace
 spec:
   hard:
-    cpu: "1"
-    memory: 2Gi
-    pods: 10
+    cpu: "0.1"
+    memory: 200Mi
+    pods: 2
 

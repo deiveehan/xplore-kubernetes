@@ -31,6 +31,9 @@ parallelism: 3
 to run more than one jobs.
 Refer: [Multiple-jobs.yml](multiple-jobs.yml)
 
+```shell script
+k apply -f multiple-jobs.yml
+```
 ### Job with errors
 What happens if a job has error, k8s creates another job pod to resolve. 
 

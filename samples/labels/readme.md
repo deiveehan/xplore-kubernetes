@@ -7,7 +7,10 @@ Provides a way to add some information to your objects that can be used to filte
 ## Using labels (Imperative way)
 ```shell script
 k run nginx --image=nginx --labels="env=dev,app=test-boot"
-
+k get pods --selector env=dev
+k get pods -l env!=dev
+k get pods -l 'env in (dev)'
+k get pods -l 'env notin (dev)'
 ```
 #### Create labels
 [label-pod-basic.yml](label-pod-basic.yml)

@@ -1,27 +1,25 @@
-## Rolling updates
+# Rolling updates
 is a way for the developer to manage how he wants to deploy a new version of the application. 
-
-## What can you do:
 - Deploy new version of the app using recreate/rollign update sttrategy. 
 - rollback to the previous changes. 
 
-### Recreate strategy
-- Deletes all the pods and recreates all the pods at the same time. 
-- Downtime
-
-### Rolling update strategy (DEFAULT)
-- Platform performs a rolling update whenever a new deployment is made. 
+Strategy:
+* Recreate
+    - Deletes all the pods and recreates all the pods at the same time. 
+* Rollign update
+    - Platform performs a rolling update whenever a new deployment is made. 
 
 #### How to test the rolling update during the deployment
 - k describe <pod> (Check the events)
 - k get replicasets (Watch a new replicaset getting created and check the no. of available pods) 
 
 #### Create a basic deployment
-Create [Simple deployment](deployment-dep-basic.yml)
+Create [Simple deployment](deployment-simplest.yml)
 ```shell script
-k apply -f deployment-dep-basic.yml
+k apply -f deployment-simplest.yml
 k get deployments
-k get pods
+k rollout status deployment/nginx-deployment
+k rollout history deployment/nginx-deployment
 ```
 
 You should be able to see multiple instances of pods based on the number you specified in the replicasets.
