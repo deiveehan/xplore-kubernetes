@@ -1,18 +1,13 @@
-## Kubernetes
-
-Sample reference for kuberentes
-
-### Youtube reference 
-[Kubernetes getting started & samples](https://www.youtube.com/watch?v=5OLbMOJMkLE&list=PLnwM5KTcJLKkeI-jl6qEOxKPUSTIQuQ1i&index=2&t=0s)
-
-### What is Kubernetes: 
-Open source Container orchestration engine that helps in managing containerized apps, automated deployment and scaling. 
-
-<img src="cka/19_Core_Concepts/Understand-the-Kubernetes-cluster-architecture/images/architecture.001.jpeg"></img>
-[Architecture](Architecture/overview.md)
-
-### Kubernetes setup
-[Setup in different cloud providers](setup/readme.md)
-
-#### Sample programs
-[Kubernetes objects - sample](samples/readme.md)
+# Kubernetes
+    The repository contains the following
+    1. Kubernetes Architecture concepts.
+    2. Setting up Kubernetes - GKE, Custom, Minikube 
+    3. Kubernetes Sample programs.
+    4. Video tutorials on Kubernetes
+    
+[Kubernetes Architecture concepts](Architecture/readme.md)
+[Kubernetes Setup](setup/readme.md)
+[Kubenretes objects Sample programs](samples/readme.md)
+[Video tutorials on Kubernetes]()
+- [Docker basics]()
+- [Kubernetes getting started & samples](https://www.youtube.com/watch?v=5OLbMOJMkLE&list=PLnwM5KTcJLKkeI-jl6qEOxKPUSTIQuQ1i&index=2&t=0s)

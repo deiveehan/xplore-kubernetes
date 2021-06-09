@@ -1,13 +1,7 @@
 # Network policies
 
-
-## Basic terms
-- Ingress
-- Egress
-- Labels
-
-### Some rules
-#### Rule 1. Traffic is allowed unless there is a network policy selecting the pod. 
+## Rules
+### Rule 1. Traffic is allowed unless there is a network policy selecting the pod. 
 Example: If you dont do anything everything is allowed
 
 #### Rule 2. Traffic is denied if there are policies selecting the pod, but none of them have any rules allowing it. 
@@ -28,7 +22,7 @@ spec:
 # ALL TRAFFIC IS BLOCKED BY MATCHING AND NOT ALLOWING
 ```
 
-#### Rule 3: Traffic is allowed if there is atleast one policy allowing it
+### Rule 3: Traffic is allowed if there is atleast one policy allowing it
 
 ```yaml
 apiVersion: networking.k8s.io/v1
@@ -52,7 +46,7 @@ spec:
 # All ports are allowed. 
 ```
 
-##### Rule 4: Policy rules are Additive. They are OR'ed with eatch other. 
+### Rule 4: Policy rules are Additive. They are OR'ed with eatch other. 
 ```yaml
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
@@ -81,7 +75,7 @@ spec:
 Dicussion points:
 - rules are applied only to the same namespaces as ingress and pod selector
 
-#### Rule 5: Network policy are scoped to the namespace they are deployed to
+### Rule 5: Network policy are scoped to the namespace they are deployed to
 
 ```yaml
 apiVersion: 
@@ -116,4 +110,12 @@ You can label a namespace using
 # Allowing some pods from another namespace is not possible.
 ```
 
-
+## Limitations
+* If you use a namespace selector, you are either allowing or not allowing
+ all the pods in that namespace, you cannod allow only certain pods in the
+  namespace to do something in a network policy. 
+  
+## Best practices
+* First block all ingress / egress in a namespace, then starte whitelisting
+ the rules. 
+* test, test, test your network policies with other namespaces as well. 
