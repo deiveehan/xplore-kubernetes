@@ -1,0 +1,13 @@
+# Retrieve all values from the config map and map it to env variables.
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      envFrom:
+      - configMapRef:
+          name: sports-map
+

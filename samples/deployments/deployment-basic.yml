@@ -1,0 +1,7 @@
+# Deployments
+
+## What can you do using deployments.
+* Create a deployment to rollout a replicaset.
+
+## Reference:
+https://kubernetes.io/docs/concepts/workloads/controllers/deployment/

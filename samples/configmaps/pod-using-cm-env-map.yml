@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      env:
+      - name: NAME_OF_PLAYER
+        valueFrom:
+          configMapKeyRef:
+            name: sportsmap
+            key: player_name
