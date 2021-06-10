@@ -34,7 +34,7 @@ curl http://10.44.0.1:8080/kube-spring/read-env
 ```
 ## NodePort: callign from a local laptop
 
-![](.readme_images/08f0d42f.png)
+![](services-and-networking/.readme_images/08f0d42f.png)
 
 ```shell script
 kubectl apply -f kubernetes/service.yml
