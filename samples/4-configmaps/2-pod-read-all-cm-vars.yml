@@ -9,5 +9,5 @@ spec:
       image: nginx
       envFrom:
       - configMapRef:
-          name: sports-map
+          name: sportsmap
 

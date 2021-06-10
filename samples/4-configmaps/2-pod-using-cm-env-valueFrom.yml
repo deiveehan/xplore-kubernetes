@@ -10,5 +10,5 @@ spec:
       - name: NAME_OF_PLAYER
         valueFrom:
           configMapKeyRef:
-            name: sportsmap
             key: player_name
+            name: sportsmap

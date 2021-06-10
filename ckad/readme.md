@@ -5,10 +5,10 @@
 2. Create and configure basic pods
 
 #### Configuration
-1. [Understand ConfigMaps](../samples/configmaps/readme.md)
-2. [Understand SecurityContexts](../samples/secrets/readme.md)
+1. [Understand ConfigMaps](../samples/4-configmaps/readme.md)
+2. [Understand SecurityContexts](../samples/5-secrets/readme.md)
 3. [Define an application's resource requriements]()
-4. [Create and consume Secrets](../samples/secrets/readme.md)
+4. [Create and consume Secrets](../samples/5-secrets/readme.md)
 5. [Understand Service Accounts](../samples/serviceaccounts/readme.md)
 
 #### Multi-container pods

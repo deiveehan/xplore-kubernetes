@@ -7,7 +7,8 @@ spec:
     - name: nginx
       image: nginx
       command: ["echo"]
-      args: ["$(EMP_NAME)"]
+      args: ["The value of EMP_NAME env variable is: $(EMP_NAME)"]
       env:
       - name: EMP_NAME
         value: "Deiveehan"
+  restartPolicy: Never
