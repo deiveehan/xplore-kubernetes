@@ -15,7 +15,7 @@
 1. [Understand Multi-container pod design patterns (e.g. ambassador, adapter, sidecar)](../samples/multi-container-pods/readme.md)
 
 #### Pod design
-1. [Labels and Selectors](../samples/labels/readme.md)
+1. [Labels and Selectors](../samples/3_labels/readme.md)
 2. [Rolling updates](../samples/rolling-update/readme.md)
 3. [Jobs](../samples/jobs/readme.md)
 

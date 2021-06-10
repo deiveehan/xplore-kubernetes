@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: deivee-ub-sleeper
+spec:
+  containers:
+    - name: deivee-ub-sleeper
+      image: deiveehan/docker-command
+      command: ["echo"]
+      args: ["Printing my name: Deivee"]
